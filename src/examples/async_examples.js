@@ -41,7 +41,7 @@ wait2(1000)
 })
 .then(() => {
     console.log("now 5s have passed");
-})
+});
 
 // With promises, we are ever one level deep into the processing chain
 // It'd be even better if we could keep things as though they were blocking - await / async to the rescue
