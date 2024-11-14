@@ -32,4 +32,4 @@ export const removeNote = async (id) => {
     }
 }
 
-export const removeAllNote = () => saveDB({notes: []})
+export const removeAllNotes = () => saveDB({notes: []})
