@@ -122,3 +122,7 @@ When using ES Modules, it's necessary to run jest with the custom flag `--experi
 _to mock something, it to replace it with a stub or an alternative_
 
 _spy is basically a function that is capable of telling you everything that happened to it (how many times it was called, which arguments it received, who called it, etc)_
+
+## Servers
+
+Node comes with a default module to allow the creation of simple http servers, which name is `http`.
