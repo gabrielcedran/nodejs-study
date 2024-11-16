@@ -116,3 +116,9 @@ Jest is a testing framework created by Meta (which is heavily based on Mocha and
 Conventions: files `.test.js` and `.spec.js` are automatically picked up - however it's possible to set up other suffixes.
 
 The way to look at is that the app is wrapped in a sub-environment with jest's globals (e.g the global `test` function).
+
+When using ES Modules, it's necessary to run jest with the custom flag `--experimental-vm-modules node_modules/jest/bin/jest.js`. Change the `scripts` `test` command to `node --experimental-vm-modules node_modules/jest/bin/jest.js`.
+
+_to mock something, it to replace it with a stub or an alternative_
+
+_spy is basically a function that is capable of telling you everything that happened to it (how many times it was called, which arguments it received, who called it, etc)_
