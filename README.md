@@ -125,4 +125,8 @@ _spy is basically a function that is capable of telling you everything that happ
 
 ## Servers
 
-Node comes with a default module to allow the creation of simple http servers, which name is `http`.
+Node comes with a default module to allow the creation of simple http servers, which name is `http`. For more advanced application, you won't use the http module but something else like express (which under the hood uses http module).
+
+### Open
+
+It's a module that opens the browser automatically. `npm i open`

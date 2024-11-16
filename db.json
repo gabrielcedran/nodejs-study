@@ -1,3 +1,17 @@
 {
-  "notes": []
+  "notes": [
+    {
+      "tags": [
+        "don",
+        "bob"
+      ],
+      "content": "walk don and bob",
+      "id": 1731757614990
+    },
+    {
+      "tags": [],
+      "content": "study nodejs",
+      "id": 1731757622827
+    }
+  ]
 }
