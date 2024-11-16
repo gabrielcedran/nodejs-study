@@ -108,3 +108,11 @@ utils.sum(1, 2);
 ```
 
 _this is known as the index.js pattern_
+
+### Automated Tests
+
+Jest is a testing framework created by Meta (which is heavily based on Mocha and Jasmine). `npm i -D jest`.
+
+Conventions: files `.test.js` and `.spec.js` are automatically picked up - however it's possible to set up other suffixes.
+
+The way to look at is that the app is wrapped in a sub-environment with jest's globals (e.g the global `test` function).
